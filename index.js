@@ -11,8 +11,6 @@ class AntDesignThemePlugin {
       themeVariables: ["@primary-color"],
       indexFileName: "index.html",
       generateOnce: false,
-      lessUrl:
-        "https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js",
       publicPath: ""
     };
     this.options = Object.assign(defaulOptions, options);
@@ -30,7 +28,6 @@ class AntDesignThemePlugin {
         env: 'production'
       };
     </script>
-    <script type="text/javascript" src="${options.lessUrl}"></script>
         `;
       if (
         options.indexFileName &&
