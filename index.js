@@ -25,7 +25,8 @@ class AntDesignThemePlugin {
     <script>
       window.less = {
         async: false,
-        env: 'production'
+        env: 'production',
+        javascriptEnabled: true
       };
     </script>
         `;
